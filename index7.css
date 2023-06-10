@@ -1,0 +1,22 @@
+.section-a {
+    width: 500px;
+    border: 1px solid royalblue;
+    display: inline;
+}
+
+.section-b {
+    width: 500px;
+    display: inline;
+}
+
+.span-a {
+    display: block;
+    width: 500px;
+    border: 1px solid purple;
+}
+
+.span-b {
+    border: 1px solid greenyellow;
+    width: 1000px;
+    display: block;
+}

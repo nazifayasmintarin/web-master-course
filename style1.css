@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+/* font-family: 'Ephesis', cursive; */
+
+.container {
+    width: 600px;
+    margin: 30px auto;
+    background: rgb(47, 245, 255);
+    padding: 20px;
+}
+
+.title {
+    font-family: 'Ephesis', cursive;
+    font-size: 35px;
+}
+
+.para {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 1.6;
+   color: brown; 
+}
+
+.btn {
+    padding: 5px 10px;
+    text-transform: uppercase;
+    
+}
+
+.praimary-btn {
+    background-color: crimson;
+    color: cornflowerblue;
+}
+.secondary-btn {
+    background-color: darkgreen;
+    color: darkorange;
+}

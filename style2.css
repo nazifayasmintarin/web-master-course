@@ -1,0 +1,20 @@
+.container {
+    width: 600px;
+    margin: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 3;
+}
+
+.hover-hand {
+  color:crimson
+}
+
+
+.hover-hand:hover {
+    cursor: pointer;
+    color:rgb(26, 9, 212);
+}

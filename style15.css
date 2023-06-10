@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+     width: 700px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid red;
+   
+}
+
+.box1 {
+    background: rgb(76, 0, 255);
+    border-radius: 5px;
+}
+
+.box2 {
+    background: rgb(0, 225, 255);
+    border-radius: 25px;
+}
+
+.box3 {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.box3 > img {
+    width: 100%;
+    height: auto;
+}

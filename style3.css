@@ -1,0 +1,22 @@
+*.
+html {
+    box-sizing: border-box;
+}
+
+
+.div1 {
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    outline: 10px dashed rgb(170, 38, 38);
+    border: 50px solid yellow;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.div2 {
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+}

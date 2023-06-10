@@ -1,0 +1,19 @@
+.image {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    border: 10px solid fuchsia;
+}
+
+ .container > img {  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center00;
+}

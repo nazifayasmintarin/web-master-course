@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .container {
+        width: 700px;
+        margin: 20px auto;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+    }
+    
+    ul {
+        list-style-type: square;
+        margin-top: 20px;
+    
+    }
+    
+    li {
+        display: inline-block;
+        margin-right: 10px;
+        padding: 10px 20px;
+        border:1px solid greenyellow;
+        border-radius: 5px;
+    }
+
+    li:nth-child(even) {
+        background-color: brown;
+    }
+
+
+    li:hover {
+        cursor: pointer;
+        color: darkmagenta;
+        border-color: blue;
+    }

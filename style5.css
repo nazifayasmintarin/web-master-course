@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 950;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: blueviolet;
+    display: flex;
+    gap: 1rem;
+    height: 400;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+    align-items: center;
+}
+.blue {
+    background-color: blue;
+}

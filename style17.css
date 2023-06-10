@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 700px;
+    height: 250px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+
+.top {
+  background-image: linear-gradient(to bottom right, red, yellow, green);
+}
+
+.middle {
+   background-image: radial-gradient(circle, rgb(16, 16, 114)5%, rgb(100, 216, 42)20%, purple 60%);
+}
+
+.bottom {
+   background-image: conic-gradient(red 50deg, blue 100deg, yellow 200deg, green 300deg, purple 400deg);
+   
